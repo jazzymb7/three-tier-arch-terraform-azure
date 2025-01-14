@@ -105,17 +105,8 @@ terraform apply
 - **State file:** Encrypted at rest
 - **State locking:** Enabled
 
-## Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Create a Pull Request
-
 ## Security Considerations
 - All subnets are isolated with NSGs
 - No direct database access from web tier
 - Restricted port access based on tier
 - Service endpoints enabled for Azure services
-
-## License
-MIT License - See LICENSE file for details
